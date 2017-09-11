@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kakao.uidemo.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_long"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast long" />
+
+
+    <Button
+        android:id="@+id/btn_short"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast short" />
+
+
+    <Button
+        android:id="@+id/btn_short_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast top short" />
+
+
+    <Button
+        android:id="@+id/btn_long_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast long_top" />
+
+
+    <Button
+        android:id="@+id/btn_long_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast long bottom" />
+
+
+    <Button
+        android:id="@+id/btn_short_bot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="toast short bottom" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="sys_white">#ffffff</color>
+    <color name="sys_blue_trans">#190091e8</color>
+    <color name="sys_blue">#2187d2</color>
+    <color name="sys_blue_1">#7fc8f3</color>//用于分割线
+    <color name="sys_blue_2">#008ee7</color>
+    <color name="sys_red">#f05c4e</color>
+    <color name="sys_red_1">#ffeceb</color>
+    <color name="sys_orange">#ff801a</color>
+    <color name="sys_green">#74c348</color>
+    <color name="sys_green_1">#23bebe</color>
+    <color name="sys_light_blue">#23bebe</color>
+    <color name="sys_white_1">#f2f2f2</color>//用于分割线、标签描边、触摸时颜色变化
+    <color name="sys_black">#000000</color>
+    <color name="sys_grey">#333333</color>//用于重要级文字、标题、导航名称、类目名称
+    <color name="sys_grey_1">#666666</color>//用于普通文字、大段文字
+    <color name="sys_grey_2">#dddddd</color>//用于标题说明、提示
+    <color name="sys_grey_2_old">#999999</color>//用于标题说明、提示
+    <color name="sys_grey_3">#b3b3b3</color>//用于标题说明、提示
+    <color name="sys_grey_4">#c7c7cc</color>//用于箭头图标
+    <color name="sys_grey_5">#ebf6fd</color>//用于箭头图标
+    <color name="sys_orange2">#CF7419</color>
+
+
+
+    <color name="shadow_grey">#99000000</color>
+
+
+    <color name="sys_line_split">#e5e5e5</color>//用于分割线、描边
+
+</resources>

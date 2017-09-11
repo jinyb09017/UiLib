@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kkrefreshheader_image">25dp</dimen>
+    <dimen name="sys_padding_left">15dp</dimen>
+    <dimen name="sys_padding_right">15dp</dimen>
+
+    <dimen name="btn_text_size">16sp</dimen>
+    <dimen name="view_text_size">10sp</dimen>
+
+
+    <dimen name="sys_title_height">48dp</dimen>
+    <dimen name="sys_option_height">50dp</dimen>
+
+    <dimen name="huge_font_size">18sp</dimen><!--对应标注为36px-->
+    <dimen name="large_font_size">16sp</dimen><!--对应标注为32px-->
+    <dimen name="big_font_size">15sp</dimen><!--对应标注为30px-->
+    <dimen name="normal_font_size">14sp</dimen><!--对应标注为28px-->
+    <dimen name="small_font_size">13sp</dimen><!--对应标注为26px-->
+    <dimen name="tiny_font_size">12sp</dimen><!--对应标注为24px-->
+    <dimen name="micro_font_size">11sp</dimen><!--对应标注为22px-->
+
+    <dimen name="large_corner_size">8dp</dimen><!--大圆角-->
+    <dimen name="normal_corner_size">6dp</dimen><!--普通圆角-->
+    <dimen name="small_corner_size">4dp</dimen><!--小圆角-->
+    <dimen name="tiny_corner_size">3dp</dimen><!--小圆角-->
+
+    <!--二维码-->
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="toggle_radio_view_radius">2dp</dimen>
+</resources>
