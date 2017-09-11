@@ -3,10 +3,10 @@
     package="com.kakao.uidemo">
 
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".App"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -19,11 +19,13 @@
         </activity>
         <activity
             android:name=".PopActivity"
-            android:label="@string/title_activity_pop"></activity>
-
+            android:label="@string/title_activity_pop" />
         <activity
             android:name=".ToastActivity"
-            android:label="@string/title_activity_toast"></activity>
+            android:label="@string/title_activity_toast" />
+        <activity
+            android:name=".WheelActivity"
+            android:label="@string/title_activity_wheel"></activity>
     </application>
 
 </manifest>

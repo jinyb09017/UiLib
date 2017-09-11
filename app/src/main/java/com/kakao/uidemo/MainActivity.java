@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     static {
         helps.add(new DemoItem("toast demo",ToastActivity.class));
         helps.add(new DemoItem("pop demo",PopActivity.class));
+        helps.add(new DemoItem("wheel demo",WheelActivity.class));
 
     }
 
