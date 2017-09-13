@@ -290,7 +290,7 @@ public class ProvincePickPopWinNoRecycle extends BasePopWindow implements OnClic
             dismiss();
         } else if (v == confirmBtn) {
             ProvinceModel provinceModel = mProvinceList.get(provincePickerV.getSelectedItem());
-            CityModel cityModel = currentProvince.getCityList().get(cityPickerV.getSelectedItem());
+            CityModel cityModel = provinceModel.getCityList().get(cityPickerV.getSelectedItem());
             if (null != mListener){
                 mListener.onAddressPickCompleted(provinceModel.getText(), provinceModel.getId(), cityModel.getText(), cityModel.getId());
             }

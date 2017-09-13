@@ -25,11 +25,13 @@
             android:label="@string/title_activity_toast" />
         <activity
             android:name=".WheelActivity"
-            android:label="@string/title_activity_wheel"></activity>
-
+            android:label="@string/title_activity_wheel" />
         <activity
             android:name=".DialogActivity"
-            android:label="@string/title_activity_dialog"></activity>
+            android:label="@string/title_activity_dialog" />
+        <activity
+            android:name=".AlignTextActivity"
+            android:label="@string/title_activity_align_text"></activity>
     </application>
 
 </manifest>

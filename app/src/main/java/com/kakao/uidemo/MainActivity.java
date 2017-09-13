@@ -17,11 +17,13 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     static List<DemoItem> helps = new ArrayList<>();
+
     static {
-        helps.add(new DemoItem("toast demo",ToastActivity.class));
-        helps.add(new DemoItem("pop demo",PopActivity.class));
-        helps.add(new DemoItem("wheel demo",WheelActivity.class));
-        helps.add(new DemoItem("dialog demo",DialogActivity.class));
+        helps.add(new DemoItem("toast demo", ToastActivity.class));
+        helps.add(new DemoItem("pop demo", PopActivity.class));
+        helps.add(new DemoItem("wheel demo", WheelActivity.class));
+        helps.add(new DemoItem("dialog demo", DialogActivity.class));
+        helps.add(new DemoItem("align demo", AlignTextActivity.class));
 
     }
 
@@ -31,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.rv);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
-        final CommonRecyclerviewAdapter<DemoItem> commonRecyclerviewAdapter = new CommonRecyclerviewAdapter<DemoItem>(this,R.layout.item_demo) {
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
+        final CommonRecyclerviewAdapter<DemoItem> commonRecyclerviewAdapter = new CommonRecyclerviewAdapter<DemoItem>(this, R.layout.item_demo) {
             @Override
-            protected void convert(ViewRecycleHolder holder, DemoItem  item, int position) {
-                holder.setText(R.id.tv_name,item.name);
+            protected void convert(ViewRecycleHolder holder, DemoItem item, int position) {
+                holder.setText(R.id.tv_name, (position + 1) + ":" + item.name);
             }
 
         };
@@ -46,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(View view, RecyclerView.ViewHolder holder, int position) {
                 DemoItem demoItem = commonRecyclerviewAdapter.getItem(position);
-                startActivity(new Intent(MainActivity.this,demoItem.entity));
+                startActivity(new Intent(MainActivity.this, demoItem.entity));
             }
 
             @Override
@@ -54,9 +56,6 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
-
-
 
 
     }

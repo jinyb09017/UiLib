@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.kakao.uidemo.AlignTextActivity">
+
+    <com.kakao.uilib.widget.JAlignTextView
+        android:id="@+id/tv_left_align"
+        android:background="@color/sys_white"
+        android:textColor="@color/sys_black"
+        android:text="这是一个测试：42019645612312312212122222222222222222222222"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+
+    <com.kakao.uilib.widget.JAlignTextView
+        android:id="@+id/tv_right_align"
+        android:background="@color/sys_white"
+        android:textColor="@color/sys_black"
+        android:layout_marginTop="20dp"
+        android:text="这是一个测试：42019645612312312212122222222222222222222222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <com.kakao.uilib.widget.JAlignTextView
+        android:id="@+id/tv_middle_align"
+        android:background="@color/sys_white"
+        android:textColor="@color/sys_black"
+        android:layout_marginTop="20dp"
+        android:text="这是一个测试：42019645612312312212122222222222222222222222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tv"
+        android:background="@color/sys_white"
+        android:textColor="@color/sys_black"
+        android:layout_marginTop="20dp"
+        android:text="这是一个测试：42019645612312312212122222222222222222222222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
