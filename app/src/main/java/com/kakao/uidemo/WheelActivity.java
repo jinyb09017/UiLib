@@ -16,6 +16,7 @@ public class WheelActivity extends AppCompatActivity implements View.OnClickList
 
     private Button btn_common;
     private Button btn_time;
+    private Button btn_province;
     private String chooseId;
 
     @Override
@@ -25,9 +26,11 @@ public class WheelActivity extends AppCompatActivity implements View.OnClickList
 
         btn_common = (Button) findViewById(R.id.btn_common);
         btn_time = (Button) findViewById(R.id.btn_time);
+        btn_province = (Button) findViewById(R.id.btn_province);
 
         btn_common.setOnClickListener(this);
         btn_time.setOnClickListener(this);
+        btn_province.setOnClickListener(this);
 
 
     }
@@ -39,7 +42,7 @@ public class WheelActivity extends AppCompatActivity implements View.OnClickList
 
 
                 @Override
-                public void onPickCompleted(String id, String name,Type type) {
+                public void onPickCompleted(String id, String name, Type type) {
                     chooseId = id;
                     btn_common.setText("类型选择：" + type.getText());
                 }
@@ -47,6 +50,10 @@ public class WheelActivity extends AppCompatActivity implements View.OnClickList
 
         } else if (v == btn_time) {
 
+            PickUtils.showYearMonthDayPicker(this, btn_time);
+        } else if (v == btn_province) {
+
+            PickUtils.showProvinceCityPicker(this, btn_province,null);
         }
     }
 

@@ -66,7 +66,7 @@ public class CommonPickPopWinLoop<T extends PickerItem> extends BasePopWindow im
         this.mContext = cxt;
         this.mListener = l;
         this.commonModels = commonModels;
-        this.id=defId;
+        this.id = defId;
         init();
     }
 
@@ -80,7 +80,7 @@ public class CommonPickPopWinLoop<T extends PickerItem> extends BasePopWindow im
 
         if (!AbPreconditions.checkNotEmptyList(commonModels)) {
 
-            Toast.makeText(mContext,"初始化数据失败",Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "初始化数据失败", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -119,7 +119,7 @@ public class CommonPickPopWinLoop<T extends PickerItem> extends BasePopWindow im
 
         if (null == commonModels) {
 
-            Toast.makeText(mContext,"pop的model不能为空",Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "pop的model不能为空", Toast.LENGTH_SHORT).show();
             return;
         }
 
@@ -169,7 +169,7 @@ public class CommonPickPopWinLoop<T extends PickerItem> extends BasePopWindow im
     }
 
     private int getSelectById(List<PickerItem> pickerItems, String id) {
-        if(pickerItems==null || id==null){
+        if (pickerItems == null || id == null) {
             return 0;
         }
         for (int i = 0; i < pickerItems.size(); i++) {
@@ -185,19 +185,19 @@ public class CommonPickPopWinLoop<T extends PickerItem> extends BasePopWindow im
     public void onClick(View v) {
 
         if (v == contentView || v == cancelBtn) {
-            if(mCancelListener!=null){
+            if (mCancelListener != null) {
                 mCancelListener.onCancel();
             }
             dismiss();
         } else if (v == confirmBtn) {
 
             if (null != mListener) {
-                int position=comPicker.getSelectedItem();
-                if(position>=0 && position<commonModels.size()) {
+                int position = comPicker.getSelectedItem();
+                if (position >= 0 && position < commonModels.size()) {
                     T commonModel = commonModels.get(comPicker.getSelectedItem());
                     String name = commonModel.getText();
                     String id = commonModel.getId();
-                    mListener.onPickCompleted(id, name,commonModel);
+                    mListener.onPickCompleted(id, name, commonModel);
                 }
             }
 

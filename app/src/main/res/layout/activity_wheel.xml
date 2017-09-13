@@ -19,5 +19,12 @@
         android:layout_height="wrap_content"
         android:text="选择时间" />
 
+
+    <Button
+        android:id="@+id/btn_province"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="省份选择" />
+
 </LinearLayout>
 

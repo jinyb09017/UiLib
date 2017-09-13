@@ -2,6 +2,8 @@ package com.kakao.uilib;
 
 import android.content.Context;
 
+import com.kakao.uilib.wheel.utils.AbPreconditions;
+
 /**
  * @author jyb jyb_96@sina.com on 2017/9/11.
  * @version V1.0
@@ -21,4 +23,13 @@ public class UiLibConfig {
     public static Context getContext() {
         return context;
     }
+
+
+
+
+    public static String getString(int resStr){
+        return AbPreconditions.checkNotNullThrow(context).getString(resStr);
+    }
+
+
 }

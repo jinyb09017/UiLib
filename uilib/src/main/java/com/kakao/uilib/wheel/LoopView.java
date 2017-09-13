@@ -181,7 +181,8 @@ public class LoopView extends View {
             }
         }
         mCurrentIndex = mInitPosition;
-        invalidate();
+//        invalidate();
+        requestLayout();
     }
 
     private void measureTextWidthHeight() {
