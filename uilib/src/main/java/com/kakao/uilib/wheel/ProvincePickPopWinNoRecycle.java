@@ -150,13 +150,6 @@ public class ProvincePickPopWinNoRecycle extends BasePopWindow implements OnClic
     private void initPickerViews(String provinceId, String cityId) {
 
 
-        this.mCityId = ProvinceInfoUtils.getCityIdByName(this.mProvince, this.mCity, mProvinceList);
-        this.mProvinceId = ProvinceInfoUtils.getProvinceIdByName(this.mProvince, mProvinceList);
-
-        this.currentProvince = ProvinceInfoUtils.getProviceByName(mProvince,mProvinceList);
-
-
-
         if (!isProvinceInit || !mProvinceId.equals(provinceId)) {
 
             int selectedPos = -1;
@@ -276,12 +269,17 @@ public class ProvincePickPopWinNoRecycle extends BasePopWindow implements OnClic
 
                 case ProvinceInfoParserTask.MSG_PARSE_RESULT_CALLBACK:
                     mProvinceList = (ArrayList<ProvinceModel>) msg.obj;
+
+
+                    ProvincePickPopWinNoRecycle.this.mCityId = ProvinceInfoUtils.getCityIdByName(ProvincePickPopWinNoRecycle.this.mProvince, ProvincePickPopWinNoRecycle.this.mCity, mProvinceList);
+                    ProvincePickPopWinNoRecycle.this.mProvinceId = ProvinceInfoUtils.getProvinceIdByName(ProvincePickPopWinNoRecycle.this.mProvince, mProvinceList);
+
+                    ProvincePickPopWinNoRecycle.this.currentProvince = ProvinceInfoUtils.getProviceByName(mProvince, mProvinceList);
                     initPickerViews(mProvinceId, mCityId);
                     break;
             }
         }
     };
-
 
 
     @Override
@@ -291,10 +289,11 @@ public class ProvincePickPopWinNoRecycle extends BasePopWindow implements OnClic
 
             dismiss();
         } else if (v == confirmBtn) {
-
-            if (null != mListener)
-                mListener.onAddressPickCompleted(mProvince, mProvinceId, mCity, mCityId);
-
+            ProvinceModel provinceModel = mProvinceList.get(provincePickerV.getSelectedItem());
+            CityModel cityModel = currentProvince.getCityList().get(cityPickerV.getSelectedItem());
+            if (null != mListener){
+                mListener.onAddressPickCompleted(provinceModel.getText(), provinceModel.getId(), cityModel.getText(), cityModel.getId());
+            }
             dismiss();
         }
     }

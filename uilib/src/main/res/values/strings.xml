@@ -3,4 +3,6 @@
 
     <string name="common_cancle">取消</string>
     <string name="common_ok">确定</string>
+
+    <string name="sys_tips">提示</string>
 </resources>
