@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         helps.add(new DemoItem("wheel demo", WheelActivity.class));
         helps.add(new DemoItem("dialog demo", DialogActivity.class));
         helps.add(new DemoItem("align demo", AlignTextActivity.class));
+        helps.add(new DemoItem("title demo", TitleBarActivity.class));
 
     }
 
