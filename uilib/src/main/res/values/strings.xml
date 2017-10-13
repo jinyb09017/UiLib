@@ -5,4 +5,5 @@
     <string name="common_ok">确定</string>
 
     <string name="sys_tips">提示</string>
+    <string name="sheet_cancel">取消</string>
 </resources>

@@ -7,4 +7,5 @@
     <string name="title_activity_align_text">AlignTextActivity</string>
     <string name="title_activity_title_bar">TitleBarActivity</string>
     <string name="title_activity_setting_line">SettingLine</string>
+    <string name="title_activity_bottom_sheet">BottomSheetActivity</string>
 </resources>

@@ -9,12 +9,14 @@
         android:id="@+id/tv_name"
         tools:text="demo"
         android:height="50dp"
-        android:gravity="center|left"
-        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@color/sys_white"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <View
+        android:id="@+id/line"
         android:layout_width="match_parent"
         android:background="@color/sys_grey"
         android:layout_height="1px"/>

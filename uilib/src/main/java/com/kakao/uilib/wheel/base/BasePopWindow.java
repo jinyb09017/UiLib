@@ -29,7 +29,7 @@ public abstract class BasePopWindow extends PopupWindow implements  PopupWindow.
 //    private final BehaviorSubject<ActivityEvent> lifecycleSubject = BehaviorSubject.create();
 
     private OnDismissListener extOnDismissListener;
-    private Context mContext;
+    protected Context mContext;
 
 
 

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:leon="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fafafa"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="16dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/headimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/girl"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="朱小明"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:id="@+id/item_one"
+        android:layout_width="match_parent"
+        leon:leftIcon="@drawable/message"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:leftText="我的消息"
+        leon:leftTextMarginLeft="30dp"
+        leon:rightText="99+"
+        leon:BottomLineLeft="16dp"
+        leon:rightTextColor="@color/gray"
+        leon:rightTextSize="14"/>
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:isShowRightText="true"
+        leon:leftIcon="@drawable/download"
+        leon:leftText="我的下载"
+        leon:rightText="V1.0.0"
+        leon:isShowTopLine="false"
+        leon:BottomLineLeft="16dp"
+        leon:rightTextColor="@color/colorPrimary"
+        leon:LtextSize="20"/>
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        leon:leftIcon="@drawable/credit_card"
+        leon:leftText="我的卡片"
+        leon:isShowTopLine="false"
+        leon:BottomLineLeft="16dp"
+        leon:rightStyle="iconHide"/>
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:id="@+id/item_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckBox"
+        leon:leftIcon="@drawable/ic_action_action_add_shopping_cart"
+        leon:leftText="我的购物车"
+        leon:BottomLineLeft="16dp"
+        leon:isShowTopLine="false"
+        leon:rightStyle="iconCheck"/>
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:id="@+id/item_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyCheckBox"
+        leon:isShowUnderLine="true"
+        leon:leftIcon="@drawable/ic_action_communication_location_on"
+        leon:leftText="我的位置"
+        leon:isShowTopLine="false"
+        leon:rightStyle="iconSwitch"/>
+
+    <com.kakao.uilib.settingline.JSettingView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        leon:diverColor="#0091e8"
+        leon:leftText="显示分割线"
+        leon:rightStyle="iconSwitch"/>
+</LinearLayout>

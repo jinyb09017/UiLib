@@ -82,7 +82,7 @@ public class TitleBarActivity extends Activity {
             }
         });
 
-        titleBar.addAction(new TitleBar.TextAction("测试") {
+        titleBar.addAction(new TitleBar.TextAction("测试下怎么") {
             @Override
             public void performAction(View view) {
                 Toast.makeText(TitleBarActivity.this, "点击了发布", Toast.LENGTH_SHORT).show();

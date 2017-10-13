@@ -37,7 +37,11 @@
             android:label="@string/title_activity_title_bar" />
         <activity
             android:name=".SettingLineActivity"
-            android:label="@string/title_activity_setting_line"></activity>
+            android:label="@string/title_activity_setting_line" />
+        <activity
+            android:name=".BottomSheetActivity"
+            android:label="@string/title_activity_bottom_sheet"
+            ></activity>
     </application>
 
 </manifest>
