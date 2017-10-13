@@ -34,7 +34,10 @@
             android:label="@string/title_activity_align_text" />
         <activity
             android:name=".TitleBarActivity"
-            android:label="@string/title_activity_title_bar"></activity>
+            android:label="@string/title_activity_title_bar" />
+        <activity
+            android:name=".SettingLineActivity"
+            android:label="@string/title_activity_setting_line"></activity>
     </application>
 
 </manifest>

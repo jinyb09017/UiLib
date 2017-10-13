@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         helps.add(new DemoItem("dialog demo", DialogActivity.class));
         helps.add(new DemoItem("align demo", AlignTextActivity.class));
         helps.add(new DemoItem("title demo", TitleBarActivity.class));
+        helps.add(new DemoItem("setting line demo", SettingLineActivity.class));
 
     }
 

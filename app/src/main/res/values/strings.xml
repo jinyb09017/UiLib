@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">UiDemo</string>
+    <string name="app_name">销冠ui样式库</string>
     <string name="title_activity_pop">PopActivity</string>
     <string name="title_activity_toast">ToastActivity</string>
     <string name="title_activity_dialog">DialogActivity</string>
     <string name="title_activity_wheel">WheelActivity</string>
     <string name="title_activity_align_text">AlignTextActivity</string>
     <string name="title_activity_title_bar">TitleBarActivity</string>
+    <string name="title_activity_setting_line">SettingLine</string>
 </resources>
