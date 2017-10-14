@@ -40,8 +40,11 @@
             android:label="@string/title_activity_setting_line" />
         <activity
             android:name=".BottomSheetActivity"
-            android:label="@string/title_activity_bottom_sheet"
-            ></activity>
+            android:label="@string/title_activity_bottom_sheet" />
+        <activity
+            android:name=".CircleImageActivity"
+            android:label="@string/title_activity_circle_image"
+            />
     </application>
 
 </manifest>
