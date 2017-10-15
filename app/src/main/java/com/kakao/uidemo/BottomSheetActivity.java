@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import com.kakao.uidemo.bean.Type;
 import com.kakao.uilib.sheet.SheetView;
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 
 import java.util.ArrayList;
 import java.util.List;

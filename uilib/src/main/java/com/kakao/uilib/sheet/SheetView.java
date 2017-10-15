@@ -15,7 +15,7 @@ import com.kakao.uilib.recycler.CommonRecyclerviewAdapter;
 import com.kakao.uilib.recycler.MultiItemTypeRecyclerAdapter;
 import com.kakao.uilib.recycler.base.ViewRecycleHolder;
 import com.kakao.uilib.wheel.base.BasePopWindow;
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 
 import java.util.List;
 

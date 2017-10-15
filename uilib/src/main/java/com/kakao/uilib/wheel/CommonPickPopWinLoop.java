@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import com.kakao.uilib.R;
 import com.kakao.uilib.wheel.base.BasePopWindow;
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 import com.kakao.uilib.wheel.utils.AbPreconditions;
 
 import java.util.ArrayList;

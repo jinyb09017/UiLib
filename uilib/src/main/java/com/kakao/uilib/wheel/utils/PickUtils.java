@@ -11,7 +11,7 @@ import com.kakao.uilib.toast.JToast;
 import com.kakao.uilib.wheel.CommonPickPopWinLoop;
 import com.kakao.uilib.wheel.DatePickerPopWin;
 import com.kakao.uilib.wheel.ProvincePickPopWinNoRecycle;
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 import com.kakao.uilib.wheel.entity.ProvinceModel;
 
 import java.text.SimpleDateFormat;

@@ -13,4 +13,34 @@
         app:border_color="@color/sys_blue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
+    <com.kakao.uilib.widget.CircleImageView
+        android:src="@drawable/girl"
+        app:border_width="3dp"
+        app:border_color="@color/sys_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.kakao.uilib.widget.CircleImageView
+        android:src="@drawable/girl"
+        app:border_width="3dp"
+        app:border_color="@color/sys_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.kakao.uilib.widget.CircleImageView
+        android:src="@drawable/girl"
+        app:border_width="3dp"
+        app:border_color="@color/sys_blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.kakao.uilib.widget.CircleImageView
+        android:src="@drawable/girl"
+        app:border_width="3dp"
+        app:border_color="@color/sys_blue"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
 </LinearLayout>

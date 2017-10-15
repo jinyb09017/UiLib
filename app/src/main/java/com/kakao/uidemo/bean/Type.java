@@ -1,7 +1,7 @@
 package com.kakao.uidemo.bean;
 
 
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 
 /**
  * @author jyb jyb_96@sina.com on 2017/7/13.
@@ -14,6 +14,19 @@ import com.kakao.uilib.wheel.entity.PickerItem;
 public class Type implements PickerItem {
     private String name;
     private String id;
+    private String grade = "100";
+
+    public String getName() {
+        return name;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
 
     @Override
     public String getText() {

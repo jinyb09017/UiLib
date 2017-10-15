@@ -17,7 +17,7 @@ import android.view.MotionEvent;
 import android.view.View;
 
 import com.kakao.uilib.R;
-import com.kakao.uilib.wheel.entity.PickerItem;
+import com.kakao.uilib.entity.PickerItem;
 
 import java.util.List;
 import java.util.concurrent.Executors;

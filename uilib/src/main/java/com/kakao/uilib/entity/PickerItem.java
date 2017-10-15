@@ -1,4 +1,4 @@
-package com.kakao.uilib.wheel.entity;
+package com.kakao.uilib.entity;
 
 /**
  * PickerView item接口类

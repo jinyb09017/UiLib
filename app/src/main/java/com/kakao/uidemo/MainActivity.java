@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         helps.add(new DemoItem("setting line demo", SettingLineActivity.class));
         helps.add(new DemoItem("bottom sheet line demo", BottomSheetActivity.class));
         helps.add(new DemoItem("circle image demo", CircleImageActivity.class));
+        helps.add(new DemoItem("state button demo", StateButtonActivity.class));
+        helps.add(new DemoItem("tag layout demo", TagLayoutActivity.class));
 
     }
 

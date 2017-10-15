@@ -1,6 +1,8 @@
 package com.kakao.uilib.wheel.entity;
 
 
+import com.kakao.uilib.entity.PickerItem;
+
 /**
  * 城市信息实体类
  */

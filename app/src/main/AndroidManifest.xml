@@ -43,8 +43,9 @@
             android:label="@string/title_activity_bottom_sheet" />
         <activity
             android:name=".CircleImageActivity"
-            android:label="@string/title_activity_circle_image"
-            />
+            android:label="@string/title_activity_circle_image" />
+        <activity android:name=".StateButtonActivity" />
+        <activity android:name=".TagLayoutActivity"></activity>
     </application>
 
 </manifest>
