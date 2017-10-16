@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         helps.add(new DemoItem("circle image demo", CircleImageActivity.class));
         helps.add(new DemoItem("state button demo", StateButtonActivity.class));
         helps.add(new DemoItem("tag layout demo", TagLayoutActivity.class));
+        helps.add(new DemoItem("text with round and stroke demo", RoundTextActivity.class));
+        helps.add(new DemoItem("tablayout with viewpager,bottom navigate", TabLayoutActivity.class));
 
     }
 

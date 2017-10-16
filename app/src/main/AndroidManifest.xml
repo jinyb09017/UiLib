@@ -45,7 +45,13 @@
             android:name=".CircleImageActivity"
             android:label="@string/title_activity_circle_image" />
         <activity android:name=".StateButtonActivity" />
-        <activity android:name=".TagLayoutActivity"></activity>
+        <activity android:name=".TagLayoutActivity" />
+        <activity android:name=".ui.SegmentTabActivity" />
+        <activity android:name=".ui.CommonTabActivity" />
+        <activity android:name=".ui.SlidingTabActivity" />
+        <activity android:name=".ui.SimpleHomeActivity" />
+        <activity android:name=".RoundTextActivity" />
+        <activity android:name=".TabLayoutActivity"></activity>
     </application>
 
 </manifest>
